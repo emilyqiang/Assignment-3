@@ -1,6 +1,6 @@
 #home {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: #F9FDFF;
 }
 
@@ -11,20 +11,42 @@
     border-radius: 35px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
 
 .fk {
-
     color: #DB8300;
-
     font-family: "Space Grotesk";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: absolute;
-    top: 48px;
-    left: 119px;
+    top: 0%;
+    left: 5%;
+}
+
+.works {
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 2.5%;
+    right: 15%;
+}
+
+.contact {
+    color: #97AFB0;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 2.5%;
+    right: 5%;
 }
