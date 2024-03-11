@@ -1,0 +1,30 @@
+#home {
+    width: 100vw;
+    height: 100vh;
+    background: #F9FDFF;
+}
+
+#hero {
+    width: 1271px;
+    height: 752px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fk {
+
+    color: #DB8300;
+
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+    left: 119px;
+}
