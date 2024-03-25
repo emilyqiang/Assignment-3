@@ -1,5 +1,5 @@
 :root{
-    --marginX: 60px;
+    --marginX: 121px;
 }
 
 * {
@@ -9,7 +9,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 
 a {
     cursor: pointer;
@@ -41,7 +40,7 @@ h3 {
 
 h4 {
     font-family: "Space Grotesk";
-    font-size: 24px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -49,27 +48,32 @@ h4 {
 
 h5 {
     font-family: "Space Grotesk";
-    font-size: 36px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-li {
+h6 {
     font-family: "Space Grotesk";
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color:#97AFB0;
 }
-.pr-20{
-    padding-right:20px;
+
+.pr-51{
+    padding-right: 51px;
+}
+
+.pt-15{
+    padding-top: 15px;
 }
 section{
     padding:0  var(--marginX);
-    padding-top:10vh;
+    padding-top: vh;
 }
+
 #home {
     width: 100%;
     height: 100%;
@@ -80,12 +84,12 @@ section{
     position: relative;
     width: 100vw;
     height: 100px;
-    background: pink;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 var(--marginX);
 }
+
 .secondary-btns{
     display: flex;
 }
@@ -109,11 +113,8 @@ section{
     width: 100%;
     height: auto;
     border-radius: 35px;
-    /* position: absolute;
-    left: 50%;
-    top: 72%;
-    transform: translate(-50%, -50%); */
 }
+
 .hero-container img{
     width: 100%;
 }
