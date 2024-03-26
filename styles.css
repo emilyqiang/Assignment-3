@@ -96,7 +96,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 var(--marginX);
+    padding: 75 var(--marginX);
 }
 
 .secondary-btns{
@@ -140,7 +140,7 @@ section{
 .socials-container {
     position: absolute;
     right: 0;
-    top: 700px;
+    top: 775px;
     background-color: #97AFB0;
     max-width: 40vw;
     width: 100%;
@@ -169,16 +169,39 @@ section{
 }
 
 .biography-container {
-    max-width:70vw;
+    position: relative;
+    max-width: 100vw;
     width: 100%;
-
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
+
 
 .biography {
     max-width: 30vw;
     width: 100%;
     font-family: "Space Grotesk";
-    font-weight: 400;
+    font-weight: 100;
     font-size: 18px;
     line-height: 23px;
+}
+
+.headshot-container{
+    padding-left: 135px;
+}
+
+.flower-container{
+    position: absolute;
+    top: 910px;
+    right: 25px;
+}
+
+.flower-img{
+    width: 350px;
+    height: 350px;
 }
