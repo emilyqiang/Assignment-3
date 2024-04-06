@@ -252,13 +252,13 @@ section {
 }
 
 .text {
-    position: absolute;
     mix-blend-mode: difference;
-    position: sticky;
-    top: 1rem;
-    align-self: flex-end;
-    padding-left: 81%;
-    padding-top: 5%;
+}
+
+.text-container {
+    position: absolute;
+    top: 1200px;
+    right: 300px;
 }
 
 .grid-container {
@@ -275,6 +275,7 @@ section {
     background-color: #DB8300;
     color: white;
     padding: 30px;
+    transition: background-color 0.3s;
 }
 
 .video-interview-container {
@@ -430,4 +431,9 @@ section {
 
 .contact{
     background-color: #F9FDFF;
+}
+
+.button:hover {
+    background-color: #97AFB0;
+    color:white;
 }
