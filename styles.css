@@ -1,5 +1,5 @@
 :root {
-    --marginX: 121px;
+    --marginX: 15vw;
 }
 
 * {
@@ -97,6 +97,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 75 var(--marginX);
+    background-color: #F9FDFF;
 }
 
 .secondary-btns {
@@ -120,9 +121,30 @@ section {
     color: #97AFB0;
 }
 
+.pb-15.medium {
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.section-head.pb {
+    padding-bottom: 30px;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.regular.space-mono {
+    font-family: "Space Mono";
+}
+
 #home {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background: #F9FDFF;
 }
 
@@ -140,7 +162,7 @@ section {
 .socials-container {
     position: absolute;
     right: 0;
-    top: 775px;
+    top: 800px;
     background-color: #97AFB0;
     max-width: 40vw;
     width: 100%;
@@ -149,23 +171,6 @@ section {
     padding-left: 44px;
     color: white;
     
-}
-
-.pb-15.medium {
-    padding-bottom: 15px;
-    font-weight: 500;
-}
-
-.medium {
-    font-weight: 500;
-}
-
-.regular {
-    font-weight: 400;
-}
-
-.regular.space-mono {
-    font-family: "Space Mono";
 }
 
 .biography-container {
@@ -177,8 +182,8 @@ section {
     align-items: center;
     justify-content: space-between;
     padding-top: 180px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 
@@ -208,8 +213,11 @@ section {
 
 .featured-works-container {
     padding-top: 120px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    max-width: 100vw;
+    width: 100%;
+    height: auto; 
 }
 
 .section-head {
@@ -218,37 +226,36 @@ section {
 }
 
 .fw-img {
-    width: 350px;
-    height: 350px;
-}
-
-.fw-row {
-    position: relative;
-    max-width: 100vw;
+    max-width: 350px;
+    max-height: 350px;
     width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 15px;
+    height: 100%;
 }
 
-.button-container {
-    padding-top: 120px;
-    padding-right: 60px;
-    padding-left: 60px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    row-gap: 5%;
+    padding-top: 3%;
+    padding-bottom: 12%;
 }
 
-.button{
+.button {
+    text-align: center;
+    background-color: #DB8300;
     color:white;
-    background-color: #EEB066;
-    padding: 30px 160px 30px;
-    max-width: 500px;
-    width: 100%;
-    align-items: center;
+    padding: 30px;
+}
+
+.video-interview-container{
+    padding-top: 10%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10%;
 }
 
 .swiper {
     width: 100%;
-    height: 20%;
+    height: auto;
   }
